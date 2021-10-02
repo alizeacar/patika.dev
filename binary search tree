@@ -1,0 +1,11 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+7=root
+5<7 so left
+1<7 && 1<<5 1=left to 5
+8>7 so right
+3<7 & 3<5 but 3>1 so 3 left to 5 1 left to 3
+6<7 left to 7
+0<7 0<1 left to 1 at bottom
+9>7 and 9>8 left to 8
+4<7 but 4>3 so it has been top to 3
+2<3 and 2>1 top to 1  
